@@ -2,7 +2,7 @@
 
 ![WB_logo.jpg](media/logo/reqres_logo.png)
 
-## :page_with_curl: Содержание
+## :page_with_curl: Содержание 
 
 * <a href="#tools">Технологии и инструменты</a>
 
@@ -11,8 +11,6 @@
 * <a href="#console">Запуск тестов из терминала</a>
 
 * <a href="#allure">Allure Report отчеты</a>
-
-* <a href="#allure-testops">Интеграция с Allure TestOps</a>
 
 <a id="tools"></a>
 ## Технологии и инструменты
@@ -23,12 +21,12 @@
 
 
 <a id="cases"></a>
-## :heavy_check_mark: Реализованные проверки
+##  Реализованные проверки
 
--  Авторизация  пользователя
+-  Авторизация пользователя 
 -  Регистрация пользователя
--  Получение данных по id
--  Удаление пользователя по id
+-  Получение данных пользователя
+-  Удаление пользователя 
 
 <a id="console"></a>
 ##  Запуск тестов из терминала
@@ -39,9 +37,8 @@ gradle clean test
 ```
 
 
-
 <a id="allure"></a>
-## <img src="media/logo/Allure.svg" width="25" height="25"/></a> [Allure Report](https://jenkins.autotests.cloud/job/AD_demo_api_reqres/5/allure/) отчеты
+## <img src="media/logo/Allure.svg" width="25" height="25"/></a> [Allure Report] отчет
 
 ### Основное окно
 
@@ -49,34 +46,12 @@ gradle clean test
 <img title="Allure Dashboard" src="media/screenshots/AllureDashboard.png">
 </p>
 
-### Отчеты по тестам
+### Отчет по тестам
 
 <p align="center">
 
-> В отчете по тестам присутствует развернутая информация по запросам и ответам.
+> В отчете по тестам информация по запросам и ответам.
 
 <img title="Allure Tests" src="media/screenshots/AllureWithInfo.png">
-</p>
-
-<a id="allure-testops"></a>
-## <img src="media/logo/Allure_TO.svg" width="25" height="25"/></a> Интеграция с [Allure TestOps](https://allure.autotests.cloud/project/1933/dashboards)
-
-### Основное окно
-
-<p align="center">
-<img title="Allure TestOps" src="media/screenshots/Dashboard_TO.png">
-</p>
-
-### Дерево тестов с разделением по фичам
-
-<p align="center">
-<img title="Allure TestOps" src="media/screenshots/TreeByFeatures_TO.png">
-</p>
-
-<a id="jira"></a>
-## <img src="media/logo/Jira.svg" width="25" height="25"/></a> Интеграция с [Jira](https://jira.autotests.cloud/browse/HOMEWORK-553)
-
-<p align="center">
-<img title="Jira" src="media/screenshots/JiraAPI.png">
 </p>
 

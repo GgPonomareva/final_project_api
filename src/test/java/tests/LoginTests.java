@@ -1,8 +1,8 @@
 package tests;
-
 import io.qameta.allure.Description;
 import io.qameta.allure.Epic;
 import io.qameta.allure.Feature;
+import io.qameta.allure.Owner;
 import models.UserGenerator;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
@@ -17,6 +17,7 @@ import static specs.Specs.*;
 public class LoginTests {
 
     @Test
+    @Owner("gponomareva")
     @DisplayName("Successful login")
     @Description("POST /api/login")
     void successLoginTest() {
@@ -37,6 +38,7 @@ public class LoginTests {
     }
 
     @Test
+    @Owner("gponomareva")
     @DisplayName("Unsuccessful login with incorrect user data")
     @Description("POST /api/login")
     void unSuccessLoginTest() {
